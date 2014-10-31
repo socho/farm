@@ -1,0 +1,47 @@
+table {
+	width: 200px;
+
+}
+
+#farm-container, #harvested-container {
+	font-size: 0;
+}
+
+#farm-container div, #harvested-container div{
+	display: inline-block;
+	height: 70px;
+	width: 70px;
+}
+
+.ready_to_harvest{
+	cursor: pointer;
+}
+
+#suppText {
+	font-size: 10pt;
+}
+
+#type-select {
+	margin-left: 25%;
+}
+
+img {
+	position: absolute;
+	width: 70px;
+	height: 70px;
+}
+
+.covered {
+	position: relative;
+}
+
+.pumpkin img {
+	src: "Pumpkin.png";
+}
+
+.farm-background {
+	position: absolute;
+	height: 500px;
+	width: 100%;
+	background-image: url("../GrassTexture.png");
+}
